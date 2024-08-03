@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./zdog.css">
+</head>
+<body>
+    <div class="container">
+        <canvas class="illo"></canvas>
+        <p>Click &amp; drag to rotate</p>
+      </div>
+
+    <script src="https://unpkg.com/zdog@1/dist/zdog.dist.min.js"></script>
+    <script src="zdog-demo.js"></script>
+    <script src="./zdog.js"></script>
+    <script>
+        document.addEventListener('contextmenu',(e) => {
+            e.preventDefault(e);
+        }, false);
+    </script>
+</body>
+</html>
